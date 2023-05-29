@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .logo {
+            width: 200px;
+            height: 50px;
+        }
+        .home {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+            font-size: 23px;
+            width: 125px;
+            vertical-align: top;
+            margin-top: 7px;
+            margin-left: 95px;
+        }
+        .about {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+            font-size: 23px;
+            width: 125px;
+            vertical-align: top;
+            margin-top: 7px;
+        }
+        .portfolio {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-color: white;
+            color: black;
+            border: none;
+            cursor: pointer;
+            margin-right: 23px;
+            font-size: 23px;
+            width: 125px;
+            vertical-align: top;
+            margin-top: 7px;
+        }
+        .Contact {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-color: white;
+            color: black;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+            font-size: 23px;
+            width: 125px;
+            vertical-align: top;
+            margin-top: 7px;
+        }
+        .Hire-me {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: "Montserrat, sans-serif";
+            background-color: rgb(192, 53, 64);
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+            font-size: 23px;
+            width: 125px;
+            height: 50px;
+            vertical-align: top;
+            margin-top: 0px;
+            margin-left: 150px;
+            border-radius: 5px;
+        }
+        .una-block {
+            margin-left: 140px;
+            margin-top: 15px;
+            margin-right: 140px;
+            margin-bottom: 15px;
+            padding-left: 110px;
+            align-content: normal;
+            align-items: normal;
+            align-self: auto;
+            display: inline-block;
+        }
+        .second-block {
+            margin-left: 155px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-left: 110px;
+            align-content: normal;
+            align-items: normal;
+            align-self: auto;
+            display: inline-block;
+        }
+        .center-header {
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: rgb(30, 21, 21);
+            margin-bottom: 20px;
+
+        }
+        .center {
+            border: none;
+            margin: auto;
+            width: 1600px;
+            padding: 10px;
+        }
+        .stay {
+            font-size: 38px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .enter-email {
+            display: block;
+            font-size: 17px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-weight: 400;
+            margin-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .email-box {
+            color: white;
+            margin-top: 10px;
+        }
+        .email-box-edit {
+            border: none;
+            margin: auto;
+            width: 450px;
+        }
+        .text {
+            width: 450px;
+            height: 25px
+        }
+        .bottom-two {
+            border: none;
+            margin: auto;
+            width: 700px
+        }
+        .subscribe-footer {
+            font-family: "Montserrat, sans-serif";
+            font-size: 20px;
+            background-color: rgb(192, 53, 64);
+            color: white;
+            border: none;
+            width: 143px;
+            height: 50px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .subscribe-footer-edit {
+            order: none;
+            margin: auto;
+            width: 150px
+        }
+        .fb {
+            width: 35px;
+            margin-right: 8px;
+            vertical-align: top;
+        }
+        .twitter {
+            vertical-align: top;
+            width: 35px;
+            margin-right: 8px;
+        }
+        .linked {
+            width: 35px;
+            vertical-align: top;
+
+        }
+        .socials {
+            display: inline-block;
+            color: white;
+        }
+        .logo-footer {
+            width: 200px;
+            height: 50px;
+        }
+        .logo-footer-edit {
+            display: inline-block;
+        }
+        .emails {
+            display: inline-block;
+        }
+        .website {
+            display: inline-block;
+        }
+        .email-edit {
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            vertical-align: top;
+            margin-top: 5px;
+            margin-left: 130px;
+            font-weight: 500;
+            color: white;
+            padding-top: 23px;
+            padding-bottom: 0px;
+            margin-left: 500px; 
+            }
+        .footer-bottom {
+            border: 1px solid;
+            margin-top: 50px;
+            box-sizing: border-box;
+            background-color: black;
+            margin-left: 0;
+            margin-bottom: 0;
+            margin-right: 0; 
+        }
+        .aboutmelink {
+            text-decoration: solid;
+        }
+        .K {
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 0px;
+            border-top: 2px solid;
+            border-color: rgb(192, 53, 64);
+            color: white;
+            background-color: white;
+            margin-top: 0px;
+            width: 125px;
+        }
+        .title-portfolio {
+            font-size: 40px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .title-portfolio-div {
+            display: block;
+            text-align: center;
+        }
+        .service {
+            font-size: 30px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-weight: 600;
+            margin-bottom: 15px;
+            margin-top: 150px;
+        }
+        .service-div {
+            text-align: center;
+        }
+        .bottom-two-div {
+            display: block;
+        }
+        .picture-1-2 {
+            display: grid;
+            grid-template-columns: 400px 500px;
+            margin-top: 50px;
+            column-gap: 50px;
+            row-gap: 50px;
+            margin-left: 470px;
+            margin-right: 470px;
+        }
+        .pic-1 {
+            width: 100%;
+            transition: 0.1s;
+        }
+        .pic-1:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+        .pic-2 {
+            transition: 0.1s;
+            width: 100%;
+            padding-top: 70px;
+            
+        }
+        .pic-2:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+        .pic-3 {
+            transition: 0.1s;
+            width: 100%;
+        }
+        .pic-3:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+        .pic-4 {
+            width: 100%;
+            padding-top: 42px;
+            transition: 0.1s;
+        }
+        .pic-4:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+        .pic-5 {
+            width: 100%;
+            padding-top: 80px;
+            transition: 0.1s;
+        }
+        .pic-5:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+        .henry {
+            display: flex;
+            height: 30rem;
+            gap: 1rem;
+            margin-top: 75px;
+            margin-bottom: 75px;
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .henry > div {
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all 0.8s cubic-bezier(.25, .4, .45, 1.4);
+        }
+        .henry > div:hover {
+            flex: 5;
+        }
+    </style>
+</head>
+<body> 
+    <div class="center">
+        <div class="una-block">
+            <img class="logo" src="file:///D:/!Project/images/1.png">
+            <a href="file:///C:/Users/Mr.%20Henry/OneDrive/Desktop/MP1/index.html"><button class="home">Home</button></a>
+            <a class="aboutmelink" href="file:///C:/Users/Mr.%20Henry/OneDrive/Desktop/MP1/About-Tab.html"><button class="about"> About </button></a>
+            <a href="file:///C:/Users/Mr.%20Henry/OneDrive/Desktop/MP1/Porfolio-Tab.html"><button class="portfolio">Porftolio</button></a>
+            <a href="file:///C:/Users/Mr.%20Henry/OneDrive/Desktop/MP1/Contacts-Tab.html"><button class="Contact">Contact</button></a>
+            <button class="Hire-me">Hire Me</button>
+        </div>
+    </div>
+    <div class="title-portfolio-div">
+        <p class="title-portfolio">
+            P O R T F O L I O
+        </p>
+        <button class="K">K</button>
+    </div>
+    <div class="service-div">
+        <p class="service">
+            What Service You Will Get From Us
+        </p>
+        <button class="K">K</button>
+            <div class="picture-1-2">
+                <div style="background-color: lightblue;">
+                    <img class="pic-1" src="file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/SAMPLE.png">
+                </div>
+                <div>
+                    <img class="pic-2" src="file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/SAMPLE1.png">
+                </div>
+                <div style="background-color: lightblue;">
+                    <img class="pic-3" src="file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/SAMPLE3.png">
+                </div>
+                
+                <div>
+                    <img class="pic-4" src="file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/SAMPLE4.png">
+                </div>
+                <div style="background-color: lightblue;">
+                    <img class="pic-1" src="file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/SAMPLE5.png">
+                </div>
+                <div>
+                    <img class="pic-5" src="file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/SAMPLE6.png">
+                </div>
+        </div>
+        <div class="henry-2">
+            <div class="henry">
+                <div style="background-image: url('file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/WORK%20SAMPLE1.png');"></div>
+                <div style="background-image: url('file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/WORK%20SAMPLE3.png');"></div>
+                <div style="background-image: url('file:///D:/!!!!!!!!!!!!!!!!!BANNERS/!!PROJECT/!Proof/!PERSONALS/worksample2.png');"></div>
+            </div>
+        </div>
+        
+        </div>
+    <div class="bottom-two-div">
+        <div class="bottom-two">
+            <p class="stay"> Stay In Touch</p>
+        <p class="enter-email">Enter your email address to register to our newsletter subscription!</p>
+        </div>
+        
+        <div class="email-box-edit">
+            <input class="text" type="text" placeholder="Enter email address">
+        </div>
+        <div class="subscribe-footer-edit">
+            <button class="subscribe-footer">Subscribe</button>
+        </div>
+    <div class="footer-bottom">
+                <p class="email-edit">mmayoral1456@gmail.com &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  www.unlijiit.com/official</p>
+                <div class="website">
+                </div>
+            </div>
+    </div>
+        
+</body>
+</html>
